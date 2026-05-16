@@ -20,6 +20,10 @@ The Fetch process follows a simple Request-Response flow:
 - Server sends Response
 - Data is returned in JSON format
 
+<p align="center">
+  <img src="fetch_process_chart.png" alt="The Fetch Process Request Response Flow" width="100%">
+</p>
+
 ## 3. Standard Syntax (Promises)
 The basic fetch() method takes one mandatory argument: the URL of the resource you want to fetch. It returns a Promise.
 ```
